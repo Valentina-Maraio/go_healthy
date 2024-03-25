@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OnFavsCard = ({ }) => {
+const FavsCard = ({ }) => {
     return (
         <div>
             <h2>On Favs Cards</h2>
@@ -8,4 +8,4 @@ const OnFavsCard = ({ }) => {
     );
 }
 
-export default OnFavsCard;
+export default FavsCard;

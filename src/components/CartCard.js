@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OnCartCard = ({ }) => {
+const CartCard = ({ }) => {
     return (
         <div>
             <h2>On Cart Cards</h2>
@@ -8,4 +8,4 @@ const OnCartCard = ({ }) => {
     );
 }
 
-export default OnCartCard;
+export default CartCard;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OnSearchCard = ({ }) => {
+const SearchCard = ({ }) => {
     return (
         <div>
             <h2>On Search Cards</h2>
@@ -8,4 +8,4 @@ const OnSearchCard = ({ }) => {
     );
 }
 
-export default OnSearchCard;
+export default SearchCard;
