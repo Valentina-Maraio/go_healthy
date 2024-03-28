@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "../app/page.module.css";
 import Menu from "../components/Menu";
+import Slogan from "../components/Slogan";
 
 const Home = ({}) => {
   return (
@@ -18,21 +19,13 @@ const Home = ({}) => {
             priority
           />
         </div>
-
-        <div>
+        <div className={styles.mobileMenu}>
           <Menu />
         </div>
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+        <Slogan/>
       </div>
 
       <div className={styles.grid}>
